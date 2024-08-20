@@ -19,4 +19,3 @@ import {useNavigate} from 'react-router-dom'
     }, [authStatus, navigate, authentication])
   return loader ? <h1>Loading...</h1> : <>{children}</>
 }
-
